@@ -32,7 +32,7 @@ from datetime import date
 """Data yang digunakan pada percobaan kali ini adalah covid_19_indonesia_time_series_all.csv yang didapatkan melalui Kaggle.com"""
 
 #Membaca Data
-data = pd.read_csv('./data/covid_19_indonesia_time_series_all.csv', parse_dates=['Date'])
+data = pd.read_csv('data/covid_19_indonesia_time_series_all.csv', parse_dates=['Date'])
 data
 
 """Disini  kita menyeleksi data yang sekiranya akan terpakai dalam memvisualisasikan data covid 19"""
