@@ -42,7 +42,6 @@ data
 data = data[['Date', 'Location', 'New Cases', 'New Deaths','New Recovered','New Active Cases','Total Cases'
 ,'Total Deaths','Total Recovered','Total Active Cases','Location Level','Province']]
 data = data.rename(columns={'Total Cases': 'TotalCases','New Cases' : 'NewCases','Total Deaths' : 'TotalDeaths'})
-data = data[19000:21759]
 data
 
 output_notebook(resources=INLINE)
