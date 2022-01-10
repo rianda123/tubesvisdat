@@ -280,6 +280,7 @@ about_text = """
 
 about = Div(text=about_text, width_policy="max")
 main_layout = column(row(hide_fig,mute_fig,about))
+show(main_layout)
 curdoc().add_root(main_layout)
 
 """Telah didapatkan interactive visualisasi data dengan mengunakan fitur label data
