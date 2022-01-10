@@ -79,8 +79,8 @@ select_tools = ['box_select', 'lasso_select', 'poly_select', 'tap', 'reset']
 
 
 #membuat date slider
-date_range_slider = DateRangeSlider(value=(date(2021, 9, 8), date(2021, 12, 3)),
-                                    start=date(2021, 9, 8), end=date(2021, 12, 3))
+date_range_slider = DateRangeSlider(value=(date(2020, 3, 1), date(2021, 12, 3)),
+                                    start=date(2020, 3, 1), end=date(2021, 12, 3))
 date_range_slider.js_on_change("value", CustomJS(code="""
     console.log('date_range_slider: value=' + this.value, this.toString())
 """))
