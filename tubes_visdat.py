@@ -23,7 +23,7 @@ import numpy as np
 
 from bokeh.io import output_file, output_notebook
 from bokeh.plotting import figure, show, curdoc
-from bokeh.models import ColumnDataSource, HoverTool, GroupFilter,CDSView, DateRangeSlider, CustomJS,Dropdown
+from bokeh.models import ColumnDataSource, HoverTool, GroupFilter,CDSView, DateRangeSlider, CustomJS,Dropdown, Div
 from bokeh.layouts import row, column, gridplot, layout
 from bokeh.models.widgets import Tabs, Panel
 from bokeh.resources import INLINE
