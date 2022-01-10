@@ -257,7 +257,6 @@ hide_fig.legend.click_policy = 'hide'
 mute_fig.legend.click_policy = 'mute'
 
 # Visualisasi
-show(row(hide_fig, mute_fig))
 curdoc().add_root(hide_fig)
 curdoc().add_root(mute_fig)
 
