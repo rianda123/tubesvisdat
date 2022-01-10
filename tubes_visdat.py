@@ -261,6 +261,25 @@ show(row(hide_fig, mute_fig))
 curdoc().add_root(hide_fig)
 curdoc().add_root(mute_fig)
 
+about_text = """
+    <style>
+        .name {
+            border: 2px solid red;
+            border-radius: 10px;
+            width:100%;
+        }
+    </style>
+    <div>
+        <ul class="name">
+            <li>Azka Zainur Azifa</li>
+            <li>Rianda Khusuma</li>
+            <li>Shabrina Retno</li>
+        </ul>
+    </div>
+"""
+about = Div(text=about_text, width_policy="max")
+curdoc().add_root(about)
+
 """Telah didapatkan interactive visualisasi data dengan mengunakan fitur label data
 
 # REFERENSI 
