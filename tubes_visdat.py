@@ -257,8 +257,8 @@ hide_fig.legend.click_policy = 'hide'
 mute_fig.legend.click_policy = 'mute'
 
 # Visualisasi
-curdoc().add_root(hide_fig)
-curdoc().add_root(mute_fig)
+#curdoc().add_root(hide_fig)
+#curdoc().add_root(mute_fig)
 
 about_text = """
     <style>
